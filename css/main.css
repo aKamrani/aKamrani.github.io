@@ -758,11 +758,11 @@ input[type="text"] {
   font-size: 1em;
   line-height: 1.4;
   margin: 0;
-  padding: 10px 25px 10px 12px;
+  padding: 10px 12px 10px 25px;
   width: 100%;
   background: 0 0;
   background-color: transparent;
-  text-align: left;
+  text-align: right;
   color: inherit;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -771,6 +771,18 @@ input[type="text"] {
   font-family: "Mj_Casablanca Heavy", "Poppins";
   /* , Helvetica, sans-serif */
   box-shadow: 0px 10px 10px -8px rgba(0, 0, 0, 0.1);
+}
+
+#form_email{
+  text-align: left;
+  padding: 10px 25px 10px 12px;
+}
+
+.notifyjs-corner{
+  bottom: 20px;
+  left: 20px;
+  top: inherit !important;
+  right: inherit !important;
 }
 
 textarea.form-control,
@@ -2740,6 +2752,11 @@ blockquote {
     float: none;
     margin: 0;
     width: 100%;
+  }
+
+  .notifyjs-corner{
+    top: 0 !important;
+    right: inherit !important;
   }
 }
 
