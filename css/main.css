@@ -71,6 +71,14 @@ html {
   font-style: normal;
 }
 
+@font-face {
+  font-family: "bkoodak";
+  src: local("Mj_Tunisia"), url("fonts/persian/BKoodak .woff") format("woff"),
+    url("fonts/persian/BKoodak .ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #0ba376;
   background: -webkit-gradient(
@@ -1353,6 +1361,7 @@ input[type="text"],
   margin: 3px 0;
   font-size: 14px;
   line-height: 1.4em;
+  /* font-family: 'bkoodak'; */
   font-size: 17px;
   text-align: right;
 }
