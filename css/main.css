@@ -2753,11 +2753,6 @@ blockquote {
     margin: 0;
     width: 100%;
   }
-
-  .notifyjs-corner{
-    top: 0 !important;
-    right: inherit !important;
-  }
 }
 
 /* ============================================================================= 
