@@ -1355,6 +1355,7 @@ input[type="text"],
 }
 
 .timeline-second-style .item-title {
+  font-family: 'Mj_Casablanca Heavy', Arial;
   margin-bottom: 3px;
   font-size: 18px;
 }
