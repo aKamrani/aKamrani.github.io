@@ -1528,6 +1528,7 @@ input[type="text"],
 
 /* --- Knowledges --- */
 .knowledges {
+  font-family: Arial;
   list-style: none;
 }
 
