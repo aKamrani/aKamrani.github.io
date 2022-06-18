@@ -1772,6 +1772,7 @@ input[type="text"],
 }
 
 .portfolio-grid figure .name {
+  font-family: 'yekta', Arial;
   display: block;
   padding: 15px 0;
   font-size: 16px;
