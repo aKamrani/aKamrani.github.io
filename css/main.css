@@ -490,7 +490,7 @@ input[type="submit"]:focus {
   z-index: -1;
 }
 
-.header-titles h2 {
+.header-titles h1 {
   font-size: 36px;
   font-weight: 600;
   color: #f5f5f5;
@@ -679,13 +679,13 @@ input[type="submit"]:focus {
   margin-bottom: 30px;
 }
 
-.page-title h2 {
+.page-title h1 {
   position: relative;
   font-size: 32px;
   z-index: 1;
 }
 
-.page-title h2 span {
+.page-title h1 span {
   color: #0ba376;
 }
 
@@ -2481,7 +2481,7 @@ blockquote {
     overflow: auto !important;
   }
 
-  .header-titles h2 {
+  .header-titles h1 {
     font-size: 30px;
     margin-bottom: 10px;
   }
