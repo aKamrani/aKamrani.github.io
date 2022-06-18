@@ -55,6 +55,12 @@ html {
   font-style: normal;
 }
 @font-face {
+  font-family: "yekta";
+  src: url("fonts/persian/yekta.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
   font-family: "Mj_Tunisia";
   src: url("fonts/persian/Mj_Tunisia.eot");
   src: local("Mj_Tunisia"), url("fonts/persian/Mj_Tunisia.woff") format("woff"),
@@ -1029,7 +1035,7 @@ input[type="text"],
 
 /* --- Simple Info List --- */
 .info-list ul {
-  font-family: "Mj_Tunisia", "Poppins";
+  /* font-family: "Mj_Tunisia", "Poppins"; */
   list-style: none;
   padding: 0;
   margin: 0;
@@ -1055,12 +1061,12 @@ input[type="text"],
 
 .info-block-w-icon .ci-text h4 {
   margin: 5px 0;
-  font-family: "Mj_Tunisia";
+  font-family: "yekta";
 }
 
 .info-block-w-icon .ci-text p {
   font-size: 0.95em;
-  font-family: "Mj_Tunisia";
+  font-family: "yekta";
 }
 
 .info-block-w-icon .ci-icon {
@@ -1310,6 +1316,7 @@ input[type="text"],
 
 .timeline-second-style .right-part p,
 .timeline-second-style .right-part p > * {
+  font-family: "yekta";
   font-size: 1em;
 }
 
@@ -1366,7 +1373,7 @@ input[type="text"],
   margin: 3px 0;
   font-size: 14px;
   line-height: 1.4em;
-  /* font-family: 'bkoodak'; */
+  font-family: 'yekta';
   font-size: 17px;
   text-align: right;
 }
@@ -1380,6 +1387,14 @@ input[type="text"],
   text-align: right;
   line-height: 1.45em;
   color: #a5a6a7;
+}
+.cc{
+  color: #0ba376 !important;
+  text-align: center !important;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px 0px;
+  margin-bottom: 15px !important;
 }
 
 .timeline-second-style .timeline-item:last-child .right-part {
@@ -1582,11 +1597,13 @@ input[type="text"],
 }
 
 .certi-id {
+  font-family: "yekta";
   font-size: 0.9em;
   color: #777;
 }
 
 .certi-date {
+  font-family: "yekta";
   font-size: 0.7em;
   color: #777;
   opacity: 0.7;
@@ -2941,17 +2958,18 @@ blockquote {
 
 .title-block h2 {
   color: #f5f5f5;
-  font-size: 60px;
+  font-size: 45px;
   line-height: 74px;
   margin: 0;
   text-align: center;
 }
 
 .title-block .sp-subtitle {
+  font-family: Arial, Helvetica, sans-serif;
   color: #aaa;
   font-size: 21px;
   font-weight: 300;
-  margin: 5px 0;
+  margin: 20px 0;
   text-align: center;
 }
 
@@ -3014,6 +3032,7 @@ blockquote {
 }
 
 .fun-fact span {
+  font-family: "yekta";
   font-size: 16px;
   color: #aaa;
   display: block;
@@ -3054,7 +3073,7 @@ blockquote {
   }
 
   .title-block h2 {
-    font-size: 48px;
+    font-size: 35px;
     line-height: 56px;
     margin: 0 0 10px;
     text-align: center;
