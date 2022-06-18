@@ -555,6 +555,7 @@ input[type="submit"]:focus {
 }
 
 .header .copyrights {
+  font-family: Arial, Helvetica, sans-serif;
   color: #bbb;
   width: 380px;
   position: absolute;
