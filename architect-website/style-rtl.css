@@ -9894,7 +9894,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
   display: block;
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
 }
 #back-to-top i:before {
   font-size: 17px;
